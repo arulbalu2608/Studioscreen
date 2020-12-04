@@ -1,0 +1,10 @@
+.navbar-dark {
+  background-color: #343a40;
+  color: antiquewhite;
+  padding: 5px;
+}
+.nav-link:hover {
+  font-weight: 600;
+  border-bottom: 3px solid wheat;
+  margin-bottom: -3px;
+}
