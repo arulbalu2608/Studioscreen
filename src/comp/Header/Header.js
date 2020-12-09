@@ -5,10 +5,10 @@ import {
   NavbarToggler,
   Collapse,
   NavItem,
-  NavLink,
   NavbarBrand,
 } from "reactstrap";
 import "./Header.css";
+import { NavLink } from "react-router-dom";
 
 class Header extends Component {
   constructor(props) {
@@ -35,13 +35,19 @@ class Header extends Component {
             <Collapse isOpen={this.state.isNavOpen} navbar>
               <Nav Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink>Home</NavLink>
+                  <NavLink className="nav-link" exact to="/">
+                    Home
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink>IncDec</NavLink>
+                  <NavLink className="nav-link" exact to="/about">
+                    About
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink>IncWithNum</NavLink>
+                  <NavLink className="nav-link" exact to="/">
+                    Gallery
+                  </NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
