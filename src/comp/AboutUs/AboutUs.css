@@ -1,0 +1,33 @@
+.owner{
+    background-color: rgba(226, 226, 226, 0.295);
+    margin: 20px 0;
+   
+}
+.imgs{
+    padding: 20px;
+    box-shadow:15px 15px 15px rgba(201, 198, 198, 0.699);
+}
+.about-owner{
+   margin-top: 10px;
+}
+.about-info{
+    margin: 20px;
+    padding: 5px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.about-info-2{
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+.line{
+    text-align: left;
+    height: 10px;
+}
+.about-info-1{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    font-weight: 500;
+}

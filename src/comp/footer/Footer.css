@@ -1,0 +1,68 @@
+.segment-two {
+  height: 100%;
+  width: 100%;
+}
+
+.ancher:hover {
+  color: rgb(0, 218, 247);
+  text-decoration: none;
+}
+/* visited link */
+a:visited {
+  color: rgb(204, 207, 22);
+}
+
+.copy {
+  color: white;
+  text-align: center;
+}
+.p1 {
+  height: auto;
+  width: auto;
+  /* background: #111010b4; */
+  text-align: center;
+  margin-top: 5px;
+  border-radius: 3px;
+}
+
+.map {
+  height: auto;
+  width: 100%;
+  border-radius: 3px;
+}
+.footer-web {
+  position: relative;
+  bottom: 0;
+  background: #343a40;
+}
+.heading {
+  color: whitesmoke;
+  text-align: left;
+}
+.footer-para {
+  color: #cfcca3;
+  text-align: left;
+}
+
+.footer-list {
+  color: whitesmoke;
+}
+.social {
+  padding: 10px;
+  margin: 0 15px;
+  text-align: center;
+}
+i {
+  color: white;
+  font-size: 45px;
+}
+.social-icon {
+  margin: 12px;
+}
+.social-icon:hover {
+  color: aliceblue;
+}
+
+.heading {
+  letter-spacing: 0.5rem;
+}

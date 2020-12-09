@@ -1,47 +1,55 @@
-import React, { useState } from "react";
+import React, { Component } from "react";
 import {
-  Collapse,
   Navbar,
-  NavbarToggler,
-  NavbarBrand,
   Nav,
+  NavbarToggler,
+  Collapse,
   NavItem,
   NavLink,
+  NavbarBrand,
 } from "reactstrap";
 import "./Header.css";
 
-function Header() {
-  const [isOpen, setIsOpen] = useState(false);
+class Header extends Component {
+  constructor(props) {
+    super(props);
 
-  const toggle = () => setIsOpen(!isOpen);
+    this.state = {
+      isNavOpen: false,
+    };
+  }
+  toggleNav = () => {
+    this.setState({
+      isNavOpen: !this.state.isNavOpen,
+    });
+  };
 
-  return (
-    <div>
-      <Navbar dark expand="md">
-        <div className="container">
-          <NavbarBrand href="/">Studio Screen</NavbarBrand>
-          <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
-                <NavLink href="/components/">Home</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
-                  About
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap">
-                  Gallery
-                </NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </div>
-      </Navbar>
-    </div>
-  );
+  render() {
+    return (
+      <div>
+        <Navbar dark expand="md">
+          <div className="container">
+            <NavbarBrand href="/">Studio Screen</NavbarBrand>
+
+            <NavbarToggler onClick={this.toggleNav} />
+            <Collapse isOpen={this.state.isNavOpen} navbar>
+              <Nav Nav className="ml-auto" navbar>
+                <NavItem>
+                  <NavLink>Home</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink>IncDec</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink>IncWithNum</NavLink>
+                </NavItem>
+              </Nav>
+            </Collapse>
+          </div>
+        </Navbar>
+      </div>
+    );
+  }
 }
 
 export default Header;

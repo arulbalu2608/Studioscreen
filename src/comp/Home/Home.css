@@ -1,0 +1,11 @@
+#jumbostyle {
+  background-image: url("jumbo.jpg");
+  background-position: center center;
+  background-size: cover;
+  color: floralwhite;
+  height: 75vh;
+  border-radius: 0px !important;
+}
+.number {
+  font-size: 50px;
+}
