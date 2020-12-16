@@ -8,45 +8,43 @@ function Footer() {
         <div className="row ">
           <div className="col-sm-4 col-md-4  m-5px  segment-one ">
             <div className="p1 p-3 ">
-              <Font family="Cinzel">
-                <h1 className="heading">STUDIO SCREEN</h1>
+              <Font family="Niconne">
+                <h1 className="heading">Studio Screen</h1>
               </Font>
-              <Font family="Josefin Slab">
-                <p className="footer-para">
-                  We believe in offering high-end images and videography
-                  service! We ensure that you get a personal touch and providing
-                  you the best photographs and videography service that can be
-                  ever made on your “big day.”
-                </p>
-              </Font>
+
+              <p className="footer-para">
+                We believe in offering high-end images and videography service!
+                We ensure that you get a personal touch and providing you the
+                best photographs and videography service that can be ever made
+                on your “big day.”
+              </p>
             </div>
           </div>
 
           <div className="col-sm-4  col-md-4 segment-two">
             <div className="p1 p-3 ">
-              <Font family="Cinzel">
-                <h1 className="heading">ADDRESS</h1>
+              <Font family="Niconne">
+                <h1 className="heading">Address</h1>
               </Font>
-              <Font family="Josefin Slab">
-                <p className="mt-3 footer-para">
-                  No. 4/1, Mandaveli Street, Karambakkam,
-                  <br />
-                  Porur, Chennai-600-116
-                  <br />
-                  Tamil Nadu
-                  <br />
-                  <i className="fa fa-envelope" aria-hidden="true"></i> Email :{" "}
-                  <a className="ancher" href="#">
-                    studioscreen@gmail.com
-                  </a>
-                </p>
-              </Font>
+
+              <p className="mt-3 footer-para">
+                No. 4/1, Mandaveli Street, Karambakkam,
+                <br />
+                Porur, Chennai-600-116
+                <br />
+                Tamil Nadu
+                <br />
+                <i className="fa fa-envelope" aria-hidden="true"></i> Email :{" "}
+                <a className="ancher" href="#">
+                  studioscreen@gmail.com
+                </a>
+              </p>
             </div>
           </div>
           <div className="col-sm-4  col-md-4 segment-three">
             <div className="p1 p-3 ">
-              <Font family="Cinzel">
-                <h1 className="heading">OUR LOCATION</h1>
+              <Font family="Niconne">
+                <h1 className="heading">Our Location</h1>
               </Font>
               <iframe
                 className="map mt-3"
