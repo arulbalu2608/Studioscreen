@@ -1,18 +1,27 @@
 import React from "react";
-import { UncontrolledCarousel, Row, Col } from "reactstrap";
-import Font, { Text } from "react-font";
+import {
+  UncontrolledCarousel,
+  Row,
+  Col,
+  Card,
+  CardImg,
+  CardText,
+  CardTitle,
+  CardSubtitle,
+} from "reactstrap";
+import Font from "react-font";
 import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
+import Flip from "react-reveal/Flip";
 import "./Home.css";
 import car1 from "../../Images/Album/06.jpg";
 import car2 from "../../Images/pre wedding/10.jpg";
 import car3 from "../../Images/Album/07.jpg";
-import img1 from "../Home/img1.JPG";
-import img2 from "../Home/img2.JPG";
-import img3 from "../Home/img3.JPG";
-import img4 from "../Home/img4.JPG";
-import img5 from "../Home/img5.JPG";
-import img6 from "../Home/img6.JPG";
+import img1 from "../../Images/candid/06.jpg";
+import img2 from "../../Images/candid/10.jpg";
+import img3 from "../../Images/candid/03.jpg";
+import img4 from "../../Images/wedding/07.jpg";
+import img5 from "../../Images/wedding/04.jpg";
+import img6 from "../../Images/wedding/05.jpg";
 
 function Home() {
   const items = [
@@ -32,7 +41,7 @@ function Home() {
   return (
     <div>
       <UncontrolledCarousel items={items} />;
-      <Fade>
+      <Fade bottom>
         <center>
           <Font family="Niconne">
             <h1 className="display-4"> welcome to Studio Screen</h1>
@@ -52,24 +61,24 @@ function Home() {
           </center>
           <br />
           <Row>
-            <Col className=" col-12 col-sm-4 imgs">
+            <Col className=" col-12 col-sm-4">
               <img src={img1} alt="img1" class="img-thumbnail"></img>
             </Col>
-            <Col className="col-12 col-sm-4 imgs">
+            <Col className="col-12 col-sm-4 ">
               <img src={img2} alt="img2" class="img-thumbnail"></img>
             </Col>
-            <Col className="col-12 col-sm-4 imgs">
+            <Col className="col-12 col-sm-4">
               <img src={img3} alt="img3" class="img-thumbnail"></img>
             </Col>
           </Row>
           <Row>
-            <Col className=" col-12 col-sm-4 imgs">
+            <Col className=" col-12 col-sm-4">
               <img src={img4} alt="img4" class="img-thumbnail"></img>
             </Col>
-            <Col className="col-12 col-sm-4 imgs">
+            <Col className="col-12 col-sm-4 ">
               <img src={img5} alt="img5" class="img-thumbnail"></img>
             </Col>
-            <Col className="col-12 col-sm-4 imgs">
+            <Col className="col-12 col-sm-4 ">
               <img src={img6} alt="img6" class="img-thumbnail"></img>
             </Col>
           </Row>
@@ -77,62 +86,100 @@ function Home() {
         <br />
         <br />
         <hr />
-        <div className="container">
-          <Row>
-            <Col className=" col-12 col-sm-6">
-              <div className="d-flex align-items-center mt-5">
-                <img
-                  src={img4}
-                  alt="img4"
-                  class=" figure-img img-fluid rounded "></img>
-              </div>
-            </Col>
-            <Col className="col-12 col-sm-6 mr-auto">
-              <Fade right cascade>
-                <Font family="Niconne">
-                  <h3 className="display-4 d-flex justify-content-center">
-                    Our Packages
-                  </h3>
-                </Font>
-                <div>
-                  <blockquote className="blockquote">
-                    <h3 className="mb-0 display-5">Outdoor Shoot</h3>
-                    <footer className="blockquote-footer">
-                      <strong> 5 Hrs with 2 -3 Costume Change</strong>
-                    </footer>
-                  </blockquote>
-                  <blockquote className="blockquote">
-                    <h3 className="mb-0 display-5">BirthDay Party</h3>
-                    <footer className="blockquote-footer">
-                      <strong>
-                        {" "}
-                        5 Hrs with 1 Photographer & 1 Videographer
-                      </strong>
-                    </footer>
-                  </blockquote>
-                  <blockquote className="blockquote">
-                    <h3 className="mb-0 display-5">Small Functions</h3>
-                    <footer className="blockquote-footer">
-                      <strong>5 Hrs with 1 Photographer</strong>
-                    </footer>
-                  </blockquote>
-                  <blockquote className="blockquote">
-                    <h3 className="mb-0 display-5">
-                      Weddings / Corporate Events
-                    </h3>
-                    <footer className="blockquote-footer">
-                      <strong>
-                        8 to 12 Hrs package with team size customized to suit
-                        your schedule & crowd
-                      </strong>
-                    </footer>
-                  </blockquote>
+        <div>
+          <Card>
+            <Row>
+              <Col className="col-12 col-sm-3">
+                <Flip>
+                  <CardImg
+                    className="img-thumbnail "
+                    src={img5}
+                    alt="Card image cap"
+                  />
+                </Flip>
+              </Col>
+              <Col className="col-12 col-sm-9 " id="card">
+                <div className="container-fluid">
+                  <Fade right>
+                    <Font family="Niconne">
+                      <CardTitle className="display-4">Wedding</CardTitle>
+                    </Font>
+                    <CardSubtitle tag="h6" className="mb-2 text-muted">
+                      Card subtitle
+                    </CardSubtitle>
+                    <CardText>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </CardText>
+                    <p>
+                      <strong>package ₹20,000</strong>
+                    </p>
+                  </Fade>
                 </div>
-              </Fade>
-            </Col>
-          </Row>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="col-12 col-sm-3">
+                <Flip>
+                  <CardImg
+                    className="img-thumbnail "
+                    src={img5}
+                    alt="Card image cap"
+                  />
+                </Flip>
+              </Col>
+              <Col className="col-12 col-sm-9 " id="card">
+                <div className="container-fluid">
+                  <Fade right>
+                    <Font family="Niconne">
+                      <CardTitle className="display-4">Wedding</CardTitle>
+                    </Font>
+                    <CardSubtitle tag="h6" className="mb-2 text-muted">
+                      Card subtitle
+                    </CardSubtitle>
+                    <CardText>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </CardText>
+                    <p>
+                      <strong>package ₹20,000</strong>
+                    </p>
+                  </Fade>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col className="col-12 col-sm-3">
+                <Flip>
+                  <CardImg
+                    className="img-thumbnail "
+                    src={img5}
+                    alt="Card image cap"
+                  />
+                </Flip>
+              </Col>
+              <Col className="col-12 col-sm-9 " id="card">
+                <div className="container-fluid">
+                  <Fade right>
+                    <Font family="Niconne">
+                      <CardTitle className="display-4">Wedding</CardTitle>
+                    </Font>
+                    <CardSubtitle tag="h6" className="mb-2 text-muted">
+                      Card subtitle
+                    </CardSubtitle>
+                    <CardText>
+                      Some quick example text to build on the card title and
+                      make up the bulk of the card's content.
+                    </CardText>
+                    <p>
+                      <strong>package ₹20,000</strong>
+                    </p>
+                  </Fade>
+                </div>
+              </Col>
+            </Row>
+          </Card>
         </div>
-        <br />
         <br />
         <hr />
       </Fade>

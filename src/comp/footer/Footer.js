@@ -28,11 +28,13 @@ function Footer() {
               </Font>
 
               <p className="mt-3 footer-para">
-                No. 4/1, Mandaveli Street, Karambakkam,
+                Studio Screen
                 <br />
-                Porur, Chennai-600-116
+                Ave Maria complex,
                 <br />
-                Tamil Nadu
+                voc Nagar, Trichy Main Road
+                <br />
+                Thanjavur-7
                 <br />
                 <i className="fa fa-envelope" aria-hidden="true"></i> Email :{" "}
                 <a className="ancher" href="#">
