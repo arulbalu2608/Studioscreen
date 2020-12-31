@@ -1,7 +1,9 @@
 import React from "react";
-import Font, { Text } from "react-font";
+import Font from "react-font";
 import "./Footer.css";
 function Footer() {
+  var d = new Date();
+  var year = d.getFullYear();
   return (
     <div className="page-footer">
       <div className="container-fluid page-footer   p-5 footer-web">
@@ -50,7 +52,7 @@ function Footer() {
               </Font>
               <iframe
                 className="map mt-3"
-                src="https://maps.google.com/maps?q=sa%20engineering%20college&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                src="https://maps.google.com/maps?q=State%20Bank%20Of%20India%20VOC%20Nagar%20Maria%20Complex%2C%20106%2C%20Avenue%2C%20Trichy%20Rd%2C%20VOC%20Nagar%2C%20Thanjavur%2C%20Tamil%20Nadu%20613007&t=&z=13&ie=UTF8&iwloc=&output=embed"
                 frameborder="0"
                 scrolling="no"
                 marginheight="0"
@@ -59,25 +61,52 @@ function Footer() {
           </div>
         </div>
         <div className="social col-sm-12 ">
-          <a className="social-icon " href="#">
+          <a
+            className="social-icon "
+            href="https://m.facebook.com/profile.php?id=100004601135760&ref=content_filter">
             <i class="fab fa-facebook-square"></i>
           </a>
-          <a className="social-icon " href="#">
+          <a
+            className="social-icon "
+            href="https://api.whatsapp.com/send?phone=+919500877373">
             <i class="fab fa-whatsapp-square"></i>
           </a>
-          <a className="social-icon " href="#">
+          <a
+            className="social-icon "
+            href="https://instagram.com/thanjai.karthick?igshid=1a1dlooynhtew">
             <i class="fab fa-instagram-square"></i>
           </a>
         </div>
         <div className="col-sm-12 pt-3 mx-auto text-center ">
           <p className="copy ">
-            &copy;2020
+            &copy;{year}
             <span> All Rights reserved |</span>
             <a className="ancher" href="#">
               {" "}
               Studio Screen
             </a>
           </p>
+        </div>
+        <div className="Dev-content">
+          <Font family="Niconee">
+            <div className="d1">
+              <h2>Developed by</h2>
+            </div>
+          </Font>
+          <Font family="Niconne">
+            <div className="d2">
+              <h3>
+                {" "}
+                <a href=" " className="ancher">
+                  Arul Prasad
+                </a>{" "}
+                |{" "}
+                <a href=" " className="ancher">
+                  Ajay Kumar
+                </a>
+              </h3>
+            </div>
+          </Font>
         </div>
       </div>
     </div>

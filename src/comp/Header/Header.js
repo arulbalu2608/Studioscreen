@@ -9,6 +9,7 @@ import {
 } from "reactstrap";
 import "./Header.css";
 import { NavLink } from "react-router-dom";
+import logo from "../../Images/logo.jpg";
 
 class Header extends Component {
   constructor(props) {
@@ -35,17 +36,29 @@ class Header extends Component {
             <Collapse isOpen={this.state.isNavOpen} navbar>
               <Nav Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink className="nav-link" exact to="/">
+                  <NavLink
+                    className="nav-link"
+                    exact
+                    to="/"
+                    onClick={this.toggleNav}>
                     Home
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" exact to="/about">
+                  <NavLink
+                    className="nav-link"
+                    exact
+                    to="/about"
+                    onClick={this.toggleNav}>
                     About
                   </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" exact to="/">
+                  <NavLink
+                    className="nav-link"
+                    exact
+                    to="/gallery"
+                    onClick={this.toggleNav}>
                     Gallery
                   </NavLink>
                 </NavItem>

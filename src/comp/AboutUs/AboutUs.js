@@ -1,20 +1,23 @@
 import React from "react";
 import img from "../AboutUs/karthick.jpg";
+import { Jumbotron, Container } from "reactstrap";
 import "./AboutUs.css";
-import Font, { Text } from "react-font";
+import Font from "react-font";
 import Flip from "react-reveal/Flip";
 import Fade from "react-reveal/Fade";
+import logo from "../../Images/logo.jpg";
 function AboutUs() {
   return (
     <div>
-      <div class="jumbotron jumbotron-fluid ">
-        <div class="container-fluid text-center pb-3">
-          <Font family="Niconne">
-            <h2 class="display-3 ">About Us</h2>
-          </Font>
-
-          <p class="lead">Our's First Love..Capturing Moments!!!</p>
-        </div>
+      <div>
+        <Jumbotron fluid id="jumboabout">
+          <Container fluid>
+            <br />
+            <br />
+            <br />
+            <br />
+          </Container>
+        </Jumbotron>
       </div>
       <div className="container-fluid  text-center owner">
         <div className="row">
@@ -24,7 +27,7 @@ function AboutUs() {
                 <img
                   src={img}
                   className="img-fluid img-responsive imgs"
-                  width="300px"
+                  width="65%"
                   alt="Responsive image"
                 />
               </Flip>
@@ -33,20 +36,22 @@ function AboutUs() {
           <div className="col-sm-6 col-md-6 ">
             <div className="about-info">
               <Fade right>
-                <Font family="Niconne">
-                  <h1 className="about-info-1 "> Studio Screen</h1>
-                </Font>
+                <img
+                  src={logo}
+                  width="50%"
+                  class="img-thumbnail"
+                  alt="..."></img>
                 <hr className="line" width="50%" />
 
                 <p className="about-info-2">
-                  Thank you for checking us out!! Studio Screen, Porur is a
-                  Chennai based wedding photography and cinematography team who
-                  are passionate about creating wedding moments that will
-                  inspire you. We love capturing different wedding traditions
-                  and creating magical memories of your BIG DAY. We have been
-                  offering our service for the past 12 years and have covered
-                  over Five hundreds of weddings across all South Indian
-                  traditions.
+                  Thank you for checking us out!!Studio Screen is a wedding
+                  photography and cinematography team who are passionate about
+                  creating wedding moments that will inspire you. We love
+                  capturing different wedding traditions and creating magical
+                  memories .We believe in offering high-end images and
+                  videography service! We ensure that you get a personal touch
+                  and providing you the best photographs and videography service
+                  that can be ever made on your “big day.”
                 </p>
               </Fade>
             </div>
@@ -54,13 +59,13 @@ function AboutUs() {
         </div>
       </div>
       <div className="container-fluid">
-        <div className="container  text-center owner">
+        <div className="container-fluid  text-center owner">
           <div className="row">
             <div className="col-sm-6 col-md-6 ml-30px">
               <div className="about-info">
                 <Fade left>
                   <Font family="Niconne">
-                    <h1 className="about-info-1 "> Studio Screen</h1>
+                    <h1 className="display-3"> Ms karthick</h1>
                   </Font>
                   <hr className="line" width="50%" />
 
@@ -88,9 +93,6 @@ function AboutUs() {
                     all of my customers can expect it being reflected in all my
                     works
                   </p>
-                  <p>
-                    <strong>Because every picture has story to tell</strong>
-                  </p>
                 </Fade>
               </div>
             </div>
@@ -100,13 +102,21 @@ function AboutUs() {
                   <img
                     src={img}
                     className="img-fluid img-responsive imgs"
-                    width="300px"
+                    width="100%"
+                    height="100%"
                     alt="Responsive image"
                   />
                 </Flip>
               </div>
             </div>
           </div>
+          <Font family="Niconne">
+            <center>
+              <h1 className="display-3">
+                Because every picture has story to tell
+              </h1>
+            </center>
+          </Font>
         </div>
       </div>
     </div>

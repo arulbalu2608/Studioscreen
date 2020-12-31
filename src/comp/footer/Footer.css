@@ -9,7 +9,7 @@
 }
 /* visited link */
 a:visited {
-  color: rgb(204, 207, 22);
+  color: rgb(253, 196, 88);
 }
 
 .copy {
@@ -52,6 +52,9 @@ a:visited {
   margin: 0 15px;
   text-align: center;
 }
+.heading {
+  color: rgb(253, 196, 88);
+}
 i {
   color: white;
   font-size: 45px;
@@ -65,4 +68,17 @@ i {
 
 .heading {
   letter-spacing: 0.5rem;
+}
+.Dev-content {
+  text-align: center;
+}
+.d1 {
+  color: #cfcca3;
+}
+.d2 {
+  color: white;
+  letter-spacing: 5px;
+}
+.dev {
+  text-decoration: none;
 }
