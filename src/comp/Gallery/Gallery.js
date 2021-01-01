@@ -79,7 +79,7 @@ function Gallery() {
                   <img
                     src={m_img4}
                     className="img-fluid img-responsive photo "
-                    alt="Responsive image"
+                    alt="wedding"
                   />
                 </a>
 
@@ -87,7 +87,7 @@ function Gallery() {
                   <img
                     src={m_img2}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="wedding"
                   />
                 </a>
 
@@ -95,7 +95,7 @@ function Gallery() {
                   <img
                     src={m_img9}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="wedding"
                   />
                 </a>
               </div>
@@ -104,7 +104,7 @@ function Gallery() {
                   <img
                     src={m_img1}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="wedding"
                   />
                 </a>
 
@@ -112,7 +112,7 @@ function Gallery() {
                   <img
                     src={m_img5}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="wedding"
                   />
                 </a>
 
@@ -120,7 +120,7 @@ function Gallery() {
                   <img
                     src={m_img6}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="wedding"
                   />
                 </a>
               </div>
@@ -129,7 +129,7 @@ function Gallery() {
                   <img
                     src={m_img7}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="wedding"
                   />
                 </a>
 
@@ -137,7 +137,7 @@ function Gallery() {
                   <img
                     src={m_img8}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="wedding"
                     height="100%"
                   />
                 </a>
@@ -158,7 +158,7 @@ function Gallery() {
                   <img
                     src={A_img1}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="candid"
                   />
                 </a>
 
@@ -166,7 +166,7 @@ function Gallery() {
                   <img
                     src={A_img2}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="candid"
                   />
                 </a>
 
@@ -174,7 +174,7 @@ function Gallery() {
                   <img
                     src={A_img3}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="candid"
                   />
                 </a>
               </div>
@@ -183,7 +183,7 @@ function Gallery() {
                   <img
                     src={A_img5}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="candid"
                   />
                 </a>
 
@@ -191,7 +191,7 @@ function Gallery() {
                   <img
                     src={A_img10}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="candid"
                   />
                 </a>
               </div>
@@ -200,7 +200,7 @@ function Gallery() {
                   <img
                     src={A_img7}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="candid"
                   />
                 </a>
 
@@ -208,7 +208,7 @@ function Gallery() {
                   <img
                     src={A_img8}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="candid"
                     height="100%"
                   />
                 </a>
@@ -217,7 +217,7 @@ function Gallery() {
                   <img
                     src={A_img6}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="candid"
                   />
                 </a>
               </div>
@@ -237,21 +237,21 @@ function Gallery() {
                   <img
                     src={P_img1}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="Post Wedding"
                   />
                 </a>
                 <a href={P_img2}>
                   <img
                     src={P_img2}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="Post Wedding"
                   />
                 </a>
                 <a href={P_img9}>
                   <img
                     src={P_img9}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="Post Wedding"
                   />
                 </a>
               </div>
@@ -260,7 +260,7 @@ function Gallery() {
                   <img
                     src={P_img4}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="Post Wedding"
                   />
                 </a>
 
@@ -268,7 +268,7 @@ function Gallery() {
                   <img
                     src={P_img5}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="Post Wedding"
                   />
                 </a>
 
@@ -276,7 +276,7 @@ function Gallery() {
                   <img
                     src={P_img6}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="Post Wedding"
                   />
                 </a>
               </div>
@@ -285,7 +285,7 @@ function Gallery() {
                   <img
                     src={P_img7}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="Post Wedding"
                   />
                 </a>
 
@@ -293,7 +293,7 @@ function Gallery() {
                   <img
                     src={P_img8}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="Post Wedding"
                     height="100%"
                   />
                 </a>
@@ -302,7 +302,7 @@ function Gallery() {
                   <img
                     src={P_img3}
                     className="img-fluid img-responsive photo"
-                    alt="Responsive image"
+                    alt="Post Wedding"
                     height="100%"
                   />
                 </a>

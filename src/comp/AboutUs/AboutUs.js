@@ -6,6 +6,7 @@ import Font from "react-font";
 import Flip from "react-reveal/Flip";
 import Fade from "react-reveal/Fade";
 import logo from "../../Images/logo.jpg";
+import ab1 from "../../Images/wedding/01.jpg";
 function AboutUs() {
   return (
     <div>
@@ -25,9 +26,9 @@ function AboutUs() {
             <div className="about-owner">
               <Flip>
                 <img
-                  src={img}
+                  src={ab1}
                   className="img-fluid img-responsive imgs"
-                  width="65%"
+                  width="100%"
                   alt="Responsive image"
                 />
               </Flip>
