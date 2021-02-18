@@ -43,68 +43,73 @@ function Home() {
     },
   ];
   return (
-    <div className="HomeStyle">
-      <div className="position-relative">
-        <UncontrolledCarousel items={items} />
-      </div>
-      <br />
-      <Fade bottom>
-        <center>
-          <img src={logo} width="30%" class="img-thumbnail" alt="logo"></img>
-          <br />
-          <Roll bottom>
-            <h4>Opening 10Am-6Pm</h4>
-          </Roll>
-          <p className="lead">
-            Studio Screen Forographia gives you a warm and hearty welcome!!! We
-            are delighted to have you here We never get a second chance to get
-            your best impression… We are looking forward to make your special
-            day more memorable… We have created thousands of delightful moments
-            across many part of Thanjavur.We can’t wait to fulfill your dreams
-            through our stunning and peculiar frames.We are known for capturing
-            graceful yet eccentric photographs with our trendy ideas and modish
-            techniques. We are passionate about creating extraordinary frames
-            out of ordinary situations. We would love to be a part of your
-            glorious moments!!!
-          </p>
-        </center>
-        <div>
-          <Font family="Niconne">
-            <h3 className="display-4">Some Beautiful Moments</h3>
-          </Font>
-
-          <br />
-          <Row>
-            <Col className=" col-12 col-sm-4">
-              <img src={img1} alt="img1" className="img-thumbnail"></img>
-            </Col>
-            <Col className="col-12 col-sm-4 ">
-              <img src={img2} alt="img2" className="img-thumbnail"></img>
-            </Col>
-            <Col className="col-12 col-sm-4">
-              <img src={img3} alt="img3" className="img-thumbnail"></img>
-            </Col>
-          </Row>
-          <Row>
-            <Col className=" col-12 col-sm-4 ">
-              <center>
-                <img src={img4} alt="img4" className="img-thumbnail"></img>
-              </center>
-            </Col>
-            <Col className="col-12 col-sm-4 ">
-              <img src={img5} alt="img5" className="img-thumbnail"></img>
-            </Col>
-            <Col className="col-12 col-sm-4 ">
-              <img src={img6} alt="img6" className="img-thumbnail"></img>
-            </Col>
-          </Row>
+    <div className="Container">
+      <div className="HomeStyle">
+        <div className="position-relative">
+          <UncontrolledCarousel items={items} />
         </div>
         <br />
+
+        <Fade bottom>
+          <center>
+            <img src={logo} width="30%" class="img-thumbnail" alt="logo"></img>
+            <br />
+            <br />
+            <Roll bottom>
+              <h4>Opening 10AM-6PM</h4>
+            </Roll>
+            <p className="lead">
+              Studio Screen gives you a warm and hearty welcome!!! We are
+              delighted to have you here We never get a second chance to get
+              your best impression… We are looking forward to make your special
+              day more memorable… We have created thousands of delightful
+              moments across many part of Thanjavur.We can’t wait to fulfill
+              your dreams through our stunning and peculiar frames.We are known
+              for capturing graceful yet eccentric photographs with our trendy
+              ideas and modish techniques. We are passionate about creating
+              extraordinary frames out of ordinary situations. We would love to
+              be a part of your glorious moments!!!
+            </p>
+          </center>
+
+          <div>
+            <Font family="Niconne">
+              <h3 className="display-4">Some Beautiful Moments</h3>
+            </Font>
+
+            <br />
+            <Row>
+              <Col className=" col-12 col-sm-4">
+                <img src={img1} alt="img1" className="img-thumbnail"></img>
+              </Col>
+              <Col className="col-12 col-sm-4 ">
+                <img src={img2} alt="img2" className="img-thumbnail"></img>
+              </Col>
+              <Col className="col-12 col-sm-4">
+                <img src={img3} alt="img3" className="img-thumbnail"></img>
+              </Col>
+            </Row>
+            <Row>
+              <Col className=" col-12 col-sm-4 ">
+                <center>
+                  <img src={img4} alt="img4" className="img-thumbnail"></img>
+                </center>
+              </Col>
+              <Col className="col-12 col-sm-4 ">
+                <img src={img5} alt="img5" className="img-thumbnail"></img>
+              </Col>
+              <Col className="col-12 col-sm-4 ">
+                <img src={img6} alt="img6" className="img-thumbnail"></img>
+              </Col>
+            </Row>
+          </div>
+          <br />
+        </Fade>
 
         <div>
           <Card>
             <Font family="Niconne">
-              <h3 className="display-4">Checkout our Packages</h3>
+              <h3 className="display-4 mx-auto">Checkout our Packages</h3>
             </Font>
             <br />
             <Row>
@@ -276,7 +281,7 @@ function Home() {
         </div>
         <br />
         <hr />
-      </Fade>
+      </div>
     </div>
   );
 }

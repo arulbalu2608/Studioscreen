@@ -29,7 +29,7 @@ function App() {
       </Router>
       <div>
         <a className="scroll-up " href="#">
-          <i class="fas fa-chevron-up"></i>
+          <i class="fas fa-long-arrow-alt-up"></i>
         </a>
       </div>
     </div>

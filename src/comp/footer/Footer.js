@@ -64,17 +64,17 @@ function Footer() {
           <a
             className="social-icon "
             href="https://m.facebook.com/profile.php?id=100004601135760&ref=content_filter">
-            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-facebook-f"></i>
           </a>
           <a
             className="social-icon "
             href="https://api.whatsapp.com/send?phone=+919500877373">
-            <i class="fab fa-whatsapp-square"></i>
+            <i class="fab fa-whatsapp"></i>
           </a>
           <a
             className="social-icon "
             href="https://instagram.com/thanjai.karthick?igshid=1a1dlooynhtew">
-            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-instagram"></i>
           </a>
         </div>
         <div className="col-sm-12 pt-3 mx-auto text-center ">
@@ -96,12 +96,11 @@ function Footer() {
           <Font family="Niconne">
             <div className="d2">
               <h3>
-                {" "}
-                <a href=" " className="ancher">
+                <a href="" className="ancher">
                   Arul Prasad
-                </a>{" "}
-                |{" "}
-                <a href=" " className="ancher">
+                </a>
+                |
+                <a href="" className="ancher">
                   Ajay Kumar
                 </a>
               </h3>

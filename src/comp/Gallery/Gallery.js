@@ -66,10 +66,11 @@ function Gallery() {
               <br />
             </Container>
           </Jumbotron>
-          <div className="container img-cont ">
+          <div className="container-fluid img-cont ">
             <div className="text-center gallery-heading">
               <Font family="Niconne">
                 <h3 className="display-4">Wedding shoot</h3>
+                <h5>( Click to preview )</h5>
               </Font>
             </div>
 
@@ -145,10 +146,11 @@ function Gallery() {
             </div>
           </div>
           <hr />
-          <div className="container img-cont">
+          <div className="container-fluid img-cont">
             <div className="text-center gallery-heading">
               <Font family="Niconne">
                 <h3 className="display-4">Candid shoot</h3>
+                <h5>( Click to preview )</h5>
               </Font>
             </div>
 
@@ -224,10 +226,11 @@ function Gallery() {
             </div>
           </div>
           <hr />
-          <div className="container img-cont">
+          <div className="container-fluid img-cont">
             <div className="text-center gallery-heading">
               <Font family="Niconne">
                 <h3 className="display-4">post wedding shoot</h3>
+                <h5>( Click to preview )</h5>
               </Font>
             </div>
 

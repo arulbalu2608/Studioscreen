@@ -66,7 +66,7 @@ function AboutUs() {
               <div className="about-info">
                 <Fade left>
                   <Font family="Niconne">
-                    <h1 className="display-3"> Ms karthick</h1>
+                    <h1 className="display-3">karthick</h1>
                   </Font>
                   <hr className="line" width="50%" />
 
